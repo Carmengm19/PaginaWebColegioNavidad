@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+header, footer {
+    position: fixed;
+    width: 100%;
+    color: #0B3954;
+    padding: 1%;
+    z-index: 1;
+    background-color: #005EB8;
+    font-family: 'Miagara';
+    text-align: center;
+}
+
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
+h1 {
+    color: black;
+    text-shadow: 1px 1px 1px #444444;
+    font-size: 40px;
+    font-family: cinzel_bold;
+}
+
+.titulo {
+    width: 40%;
+    text-align: left;
+    float: left;
+    margin-left: 2%;
+    
+}
+.logo {
+    width: 5%;
+    float: left;
+    margin-left: 33%;
+}
+
+.img{
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    margin-top: 8%;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #8B0000;
+    font-family: quicksand_book;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 33%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 3%;
+}
+
+nav ul li a {
+    color: #F5F5F5;
+    text-decoration: none;
+    background-color: #8B0000;
+}
+
+/* Estilos para el menú desplegable */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8B0000;
+    box-shadow: 1% rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #F5F5F5;
+    padding: 1%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #8B0000;
+    position: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #834b4b;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#desplegable1{
+    min-width: 210px;
+}
+
+.contacto {
+    color: rgba(255, 255, 255, 0.564);
+    font-family: caviar;
+}
+
+span {
+    font-family: iconos;
+}
+
+@font-face {
+    font-family: cinzel_bold;
+    src: url(../fuentes/Cinzel-Bold.otf);
+}
+
+@font-face {
+    font-family: quicksand_book;
+    src: url(../fuentes/Quicksand_Book.otf);
+}
+
+@font-face {
+    font-family: iconos;
+    src: url(../fuentes/LettertypeMiesChristmasIcons-Regular.ttf);
+}
+
+@font-face {
+    font-family: arboles;
+    src: url(../fuentes/Merry\ Christmas\ Trees.otf);
+}
+
+@font-face {
+    font-family: caviar;
+    src: url(../fuentes/CaviarDreams.ttf);
+}
