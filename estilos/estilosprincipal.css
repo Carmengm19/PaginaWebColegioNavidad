@@ -23,3 +23,24 @@ main {
     font-family: Roboto;
     src: url(../fuentes/Roboto-Light.ttf);
 }
+
+@media only screen and (max-width: 412px) and (max-height: 915px) {
+    main{
+        margin-left: 3%;
+    }
+      h2 {
+        font-size: 20px;
+      }
+    
+      #texto {
+        width: 100%;
+        margin: 0;
+        font-size: 16px;
+        margin-bottom: 35%;
+      }
+    
+      img {
+        width: 100%;
+        margin: 10px 0;
+      }
+}
