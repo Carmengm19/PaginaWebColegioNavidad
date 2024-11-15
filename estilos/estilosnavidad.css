@@ -1,0 +1,42 @@
+#titulo {
+    width: 100%;
+    float: left;
+    height: 20%;
+    padding-top: 1%;
+    text-align: center;
+  }
+
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    margin-bottom: 10%;
+}
+
+.text-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-content img {
+    max-width: 80%;
+    height: auto;
+}
+
+#texto {
+    font-size: 20px;
+    text-align: justify;
+    font-family: Roboto;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fuentes/Roboto-Light.ttf);
+}

@@ -1,0 +1,25 @@
+h2 {
+    text-align: center;
+}
+
+img {
+    margin-left: 29%;
+}
+
+#texto {
+    text-align: justify;
+    width: 42%;
+    margin-left: 29%;
+    font-size: 20px;
+    margin-bottom: 10%;
+    font-family: Roboto;
+}
+
+main {
+    width: 100%;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fuentes/Roboto-Light.ttf);
+}
